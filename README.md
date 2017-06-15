@@ -17,4 +17,5 @@ This code write test in console and file (filename set in logger.js) in format:
 ```
 
 See test.js for more samples
+
 All code in logger.js
