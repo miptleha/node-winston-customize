@@ -3,13 +3,14 @@ var winston = require('winston');
 module.exports = function(callingModule) {
 
     return new winston.Logger({
-        level: 'debug',
         transports: [new winston.transports.Console({
+            level: 'info',
             label: getLabel(),
             colorize: true,
             timestamp: timestampFormat
         }),
         new winston.transports.File({
+            level: 'debug',
             label: getLabel(),
             filename: 'file.log',
             json: false,
