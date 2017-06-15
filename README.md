@@ -7,15 +7,15 @@ Wrapper on winston module.
 
 ```
 var logger = require('./logger')(module);
-logger.debug('debug info');
+logger.info('some job done');
 ```
 
 This code write test in console and file (filename set in logger.js) in format:
 
 ```
-2017-06-15 13:24:57.856 - debug: [2/test.js] debug info
+2017-06-15 13:24:57.856 - info: [2/test.js] some job done
 ```
 
 See test.js for more samples
 
-All code in logger.js
+All customization code in logger.js
