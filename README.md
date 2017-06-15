@@ -1,7 +1,7 @@
 # winston-customize
 Customization of winston logger module
 
-Wrapper on winston module.
+Wrapper on winston module
 
 ## Usage:
 
