@@ -12,3 +12,5 @@ logger.profile('test');
 logger.info('CHILL WINSTON!', { seriously: true });
 
 logger.profile('test');
+
+logger.error('some error');
