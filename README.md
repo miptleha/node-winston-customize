@@ -1,4 +1,3 @@
-# winston-customize
 Customization of winston logger module
 
 Wrapper on winston module
